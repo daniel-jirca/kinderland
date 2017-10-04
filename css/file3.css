@@ -1,0 +1,250 @@
+*	{
+	border: 0 none;
+	line-height: 1em;
+	
+	box-sizing: 		border-box;
+	-moz-box-sizing: 	border-box; 
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: 		border-box;
+	-ms-box-sizing: 	border-box;
+}
+
+html, body{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	font-family: Comfortaa sans-serif;
+}
+.center{
+	display:table;
+	margin:0 auto;
+}
+p{
+	line-height:1.5em;
+}
+
+.topbackground{
+	vertical-align: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-image: url(../static/background.jpeg);
+	background-attachment: scroll;
+	background-size: 100%;
+width:100%;
+height:100%;
+}
+
+.logo{
+	padding-top:15em;
+	padding-bottom:3em;
+}
+.title{
+	font-size:1.2em;
+	color:white;
+	margin-bottom:1em;
+}
+.line{
+	height:0.1em;
+	width:20em;
+	background-color:white;
+	margin-bottom:1em;
+}
+.text{
+	font-size:1em;
+	color:white;
+	margin-bottom:2em;
+}
+.button{
+	padding:0.7em 2.4em;
+	background-color:#46bec2;
+	color:white;
+	/*font-size:1.5em;*/
+	font-size:1.2em;
+	text-decoration:none;
+	transition:background-color 0.5s ease, color 0.5s ease;
+}
+.button:hover{
+	background-color:white;
+	color:#351b48;
+	transition:background-color 0.5s ease, color 0.5s ease;
+}
+
+/*second box*/
+
+.secondbox{
+	padding:4em;
+	background-color:#46bec2;
+	width:100%;  
+}
+
+/*third box*/
+
+.thirdbox{
+	padding:4em;
+	background-color:#282829;
+	width:100%;  
+}
+.box{
+	background-color:white;
+	width:21.9375em;
+	float:left;
+	margin-left:1em;
+}
+.line2{
+	height:0.15em;
+	width:7em;
+	background-color:black;
+	margin:0 auto;
+	display:table;
+}
+.boxtitle{
+	text-align:center;
+	color:#6818a5;
+	font-size:1.5em;
+}
+.boxsubtitle{
+	text-align:center;
+	font-weight:bold;
+	font-size:1em;
+}
+.boxtext{
+	text-align:center;
+	font-size:1em;
+	padding-left:2em;
+	padding-right:2em;
+}
+
+/*forth box*/
+
+.forthbox{
+	padding:4em;
+	background-color:#46bec2;
+	width:100%;  
+}
+tr, td{
+	border:0;
+	color:#431f5e;
+	font-size:1em;
+}
+/*fifth box*/
+
+.fifthbox{
+	padding:4em;
+	background-color:#2f1542;
+	width:100%;
+}
+.button2{
+	padding:0.7em 2.4em;
+	background-color:#46bec2;
+	color:white;
+	/*font-size:1.5em;*/
+	font-size:1.2em;
+	text-decoration:none;
+	transition:background-color 0.5s ease, color 0.5s ease;
+	border:0.1em solid white;
+	margin-bottom:2em;
+}
+.button2:hover{
+	background-color:white;
+	color:#351b48;
+	transition:background-color 0.5s ease, color 0.5s ease;
+	border:0.1em solid #351b48;
+}
+/*last box*/
+.lastbox{
+	background-color:#282829;
+	padding:2em 0em;
+	width:100%;  
+}
+.logo2{
+	width:180px;
+	height:50px;
+	margin-bottom:1em;
+}
+.link:hover{
+	text-decoration:underline; 
+}
+.link{
+	text-decoration:none; 
+	color:#46bec2;
+}
+
+/*NEW ITEMS INSERTED HERE
+========================================*/
+@font-face
+{
+    font-family: Comfortaa;
+    src: url("../fonts/comfortaa-regular.ttf");
+    font-style: normal;
+}
+@font-face
+{
+font-family: Comfortaa;
+src: url("../fonts/comfortaa-bold.ttf");
+font-weight: bold;
+}
+
+
+/*navigation*/
+nav ul li{
+    list-style:none;
+    display:inline-block;
+    margin:0;
+    padding:0;
+}
+nav ul li a{
+    padding:0 1em;
+    color:white;
+    text-decoration:none;
+    font-size:0.8em;
+
+}
+nav ul li a:hover{
+    text-decoration:underline;
+}
+/*first box*/
+.menu {
+    font-family: Comfortaa;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.homeButton{
+    background-color: #FCD500;
+}
+.despreButton{
+    background-color: #D998B5;
+}
+.afterSchoolButton{
+    background-color: #019FC4;
+}
+.inscrieriButton{
+    background-color: #6C6891;
+}
+.contactButton{
+    background-color: #01AB45;
+}
+
+nav {
+    /*padding: 5px;*/
+    background-color: white;
+    width: 90%;
+    margin: 200px 100px auto;
+	position: fixed;
+	text-align:center;
+}
+
+/*table {*/
+    /*font-family: Comfortaa sans-serif;*/
+/*}*/
+th {
+    font-family: Comfortaa sans-serif;
+    border:2px solid ghostwhite;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kinderland</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("a").on('click', function(event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+              window.location.hash = hash;
+            });
+          }
+        });
+      });
+    </script>
+</head>
+
+<body>
+
+<!--START menu bar-->
+
+<nav role="navigation" class="topbackground">
+    <table>
+        <tr>
+            <th class="homeButton menu"><a href="#Acasa">Acasa</a></th>
+            <th class="despreButton menu"><a href="#DespreNoi">Despre Noi</a></th>
+            <th class="afterSchoolButton menu"><a href="#afterSchoolButton">After School</a></th>
+            <th class="inscrieriButton menu"><a href="#Inscrieri">Inscrieri</a></th>
+            <th class="contactButton menu"><a href="#contactButton">Contact</a></th>
+        </tr>
+    </table>
+</nav>
+
+<!--END menu bar-->
+
+
+<!-- First Box -->
+<div class="kdproj">
+    <img style="width: 90%" src="static/kd_project.png">
+</div>
+
+<!-- First Box -->
+
+<!--START Despre noi -->
+<div class="div_despre" id="DespreNoi">
+
+    <p style="font-weight: bold">
+        Bun Venit La Grădinița Kinderland!
+    </p>
+    <p>
+        Grădinița este acreditată prin ordin al ministrului educaţiei nr. 6233/2009.
+    </p>
+    <p>
+        Grădiniţa Kinderland (KD) este o instituţie privată de învățământ preșcolar, cu deschidere internațională, unde invata si se joaca copii cu vârsta cuprinsă între 12 luni şi 6 ani, indiferent de naţionalitate, sex sau religie, ce doresc să urmeze un traseu educaţional bilingv (romana-engleza).
+    </p>
+    <p>
+        Grădiniţa Kinderland (PK) este un proiect educaţional ambiţios, care îmbrăţişează diversitatea şi multiculturalitatea, servind atât comunitatea locală, cât şi pe cea internaţională.
+    </p>
+    <p style="font-weight: bold">
+    Viziunea Grădiniţei Este
+    </p>
+    <p>
+        O gradiniţa modernă şi de calitate pentru 100 de ani.
+    </p>
+    <p>
+        Programul nostru este destinat copiilor între 1 an jumatate şi 5 - 6 ani şi valorifică competenţele cheie prevăzute în legislaţia Uniunii Europene:
+    </p>
+<ol>
+    <li>Comunicarea în limba maternă.</li>
+    <li>Comunicare în limbi străine.</li>
+    <li>Matematică şi competenţe de bază în domeniul ştiinţei şi tehnologiei.</li>
+    <li>Competenţe digitale.</li>
+    <li>A învăţa să înveţi.</li>
+    <li>Competenţe sociale şi civice.</li>
+    <li>Spirit de iniţiativă şi antreprenoriat.</li>
+    <li>Conştientizare şi manifestare culturală.</li>
+</ol>
+    <p style="font-weight: bold">
+        Misiunea Grădiniţei
+    </p>
+
+    <p>
+        Ne propunem să formăm copii curiosi, curajosi si competenti, care să facă faţă provocărilor de diferite feluri.
+    </p>
+
+    <p>
+        Pentru această misiune, alegem mereu oameni care să le fie modele, să le ofere experienţe orientate spre valorile grădiniţei: responsabilitate, corectitudine şi respect. Educaţia pe care o oferim copiilor se bazează pe o abordare care dezvoltă competenţe cheie pentru învăţarea de lungă durată, într-o tendinţă modernă şi durabilă, pregătindu-i pe copii pentru viitoarele experienţe ale vieţii.
+    </p>
+    <p style="font-weight: bold">
+        Ţinte Strategice Pentru 2013 - 2020
+    </p>
+
+    <p>
+        Să dezvoltăm şi să consolidăm ciclul preşcolar, venind in intampinarea nevoilor familiilor si ale copiilor, printr-o programa adecvata la cerintele educatiei modern, ce reflecta evolutia societatii si tehnologiei.
+    </p>
+    <p>
+        Să consolidam la nivelul tuturor acţiunilor educaţionale o abordare dinamica bazată pe propunerile Uniunii Europene (Key Competences for Lifelong Learning).
+    </p>
+    <p>
+        Să atragem şi să menţinem cei mai buni profesori pentru copii.
+    </p>
+    <p>
+        Să continuăm afirmarea copiilor cu succes în evaluările naţionale şi internaţionale, precum şi în activităţi sportive.
+    </p>
+    <p>
+        Să ne implicam pe plan local şi internaţional in parteneriate cât mai variate ca domenii şi abordări.
+    </p>
+    <p>
+        Să adaptam şi să dezvoltăm campusul în funcţie de nevoile copiilor.
+    </p>
+    <p>
+        Să creăm o cultură de cooperare intre gradinita, parinti si societate.
+    </p>
+
+
+
+
+
+<img class="plank" src="static/wood_plank.png">
+
+</div>
+
+
+
+<!--END Despre Noi-->
+
+</body>
+</html>
