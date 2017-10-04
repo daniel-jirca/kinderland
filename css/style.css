@@ -26,21 +26,6 @@ nav{
 
 }
 
-table {
-    border-color: white;
-    border-spacing: 0;
-    margin: auto;
-    width: 90%;
-    padding-top: 13%;
-}
-
-th {
-    font-family: Comfortaa sans-serif;
-    border:2px solid ghostwhite;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-}
 
 .topbackground{
 	vertical-align: 100%;
@@ -145,3 +130,51 @@ div.plank{
     text-align: center;
     display: table-cell;
 }
+
+div.div_afterschool{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    margin: 30px;
+    padding: 20px;
+    background-color: white;
+    /*background-image: url(../static/baloons_girl-transparent20.png);*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 40%;*/
+    /*background-origin: content-box;*/
+    width: 90%;
+    font-family: Comfortaa;
+    font-size: 20px;
+    display: block;
+
+}
+
+table {
+    border-color: white;
+    border-spacing: 0;
+    margin: auto;
+    width: 90%;
+    padding-top: 13%;
+    font-size: 15px;
+}
+
+th {
+    font-family: Comfortaa;
+    font-weight: 900;
+    /*border:2px solid ghostwhite;*/
+    padding: 10px;
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+td {
+    font-family: Comfortaa;
+    /*border:2px solid ghostwhite;*/
+    padding: 10px;
+    color: ghostwhite;
+    text-decoration: none;
+    font-weight: normal;
+    min-width: 6em;
+}
+
+
