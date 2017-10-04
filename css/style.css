@@ -121,13 +121,27 @@ div.div_despre{
     margin: 30px;
     padding: 20px;
     background-color: white;
+    background-image: url(../static/baloons_girl-transparent20.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-origin: content-box;
     width: 90%;
     font-family: Comfortaa;
     font-size: 20px;
+    display: block;
+
 }
 
-.plank{
+img.plank{
     width: 50%;
     margin: auto;
-    padding: 100px;
+    padding: 20px;
+}
+div.plank{
+    width: 50%;
+    /* margin: auto; */
+    /* padding: 100px; */
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
 }
