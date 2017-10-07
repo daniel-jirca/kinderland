@@ -222,4 +222,73 @@ div.backpack {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 25px;
+    box-shadow: 5px 5px #C6C6C6;
+    margin-bottom: 10px;
+}
+
+div.div_contact{
+    margin: 30px;
+    padding: 20px;
+    background-color: white;
+    background-size: 40%;
+    width: 90%;
+    font-family: Comfortaa;
+    font-size: 20px;
+    display: table;
+    position: relative;
+    text-align: center;
+
+
+}
+
+div.top {
+    background-color: #E1FBFF;
+    padding: 10px;
+    border-radius: 100px;
+    display: table;
+    margin: auto;
+}
+
+div.topicons{
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    float: left;
+    width: 25%;
+    padding: 0 4%;
+}
+
+img.topicons {
+    width: 40%;
+    padding: 0 10%;
+}
+
+p.topicons {
+    color: #95989A;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+div.forms{
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    float: left;
+    width: 50%;
+    /*padding: 0 4%;*/
+}
+
+form.forms {
+    padding: 20px;
+
+}
+
+input.forms {
+    padding: 25px;
+    text-align: left;
+    padding-right: 50%;
+    margin: 10px;
+    border-radius: 25px;
+    border: 3px solid green;
 }
