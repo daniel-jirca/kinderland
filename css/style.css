@@ -285,10 +285,19 @@ form.forms {
 }
 
 input.forms {
+    font-family: Comfortaa;
+    font-size: 20px;
     padding: 25px;
     text-align: left;
     padding-right: 50%;
     margin: 10px;
     border-radius: 25px;
-    border: 3px solid green;
+    border: 3px solid #01AB45;
+    outline: none;
+}
+
+#mesaj {
+    padding-right: 76%;
+    padding-bottom: 200px;
+    border-color: #6C6891;
 }
