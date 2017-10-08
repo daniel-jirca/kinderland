@@ -301,3 +301,56 @@ input.forms {
     padding-bottom: 200px;
     border-color: #6C6891;
 }
+
+ /*Animation styling STARTS HERE*/
+
+
+#animation_container {
+    /*position:absolute;*/
+    margin:auto;
+    left:0;right:0;
+    top:0;bottom:0;
+    /*width: 90%;*/
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
+    /*text-align: center;*/
+}
+
+#dom_overlay_container{
+    pointer-events:none;
+    overflow:hidden;
+    width:550px;
+    height:400px;
+    /*position: absolute;*/
+    left: 0px;
+    top: 0px;
+    display: block;
+}
+
+#canvas {
+    width: 550px;
+    height: 400px;
+    /*position: absolute;*/
+    display: block;
+    background-color:rgba(255, 255, 255, 1.00);"
+}
+
+div.animation{
+    margin: 30px;
+    padding: 20px;
+    background-color: white;
+    background-size: 40%;
+    background-origin: content-box;
+    width: 90%;
+    font-family: Comfortaa;
+    font-size: 20px;
+    display: block;
+}
+
+.kdproj{
+    /* width: 90%; */
+    display: block;
+    /* vertical-align: middle; */
+    /* text-align: center; */
+    padding-left: 5%;
+}
