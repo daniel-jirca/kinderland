@@ -198,7 +198,7 @@ div.div_inscrieri{
 img.backpack{
     width: 85%;
     margin: auto;
-    padding: 20px;
+    padding: 90px;
 }
 
 div.backpack {
@@ -211,7 +211,7 @@ div.backpack {
 .descarcabutton{
     font-family: Comfortaa;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 20px;
     background-color: #EB6EA1;
     border: none;
     color: ghostwhite;
@@ -353,4 +353,5 @@ div.animation{
     /* vertical-align: middle; */
     /* text-align: center; */
     padding-left: 5%;
+    padding-top: 100px;
 }
